@@ -48,4 +48,10 @@ void main(){
   print('Is not empty: ${numbers.isNotEmpty}');
   print('Element at position 3: ${numbers.elementAt(2)}');
 
+  print(numbers);
+  numbers.shuffle();
+  print('After shuffle, numbers are: $numbers');
+  numbers.shuffle();
+  print('Shuffle again: $numbers');
+
 }
